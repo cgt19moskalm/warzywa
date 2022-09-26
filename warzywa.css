@@ -1,0 +1,26 @@
+body{background-color: grey;
+}
+table,th,td,tr{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+th{
+    background-color: darkgrey;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+input[type="button"]{
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+input[type="button"]:hover{
+    background-color: grey;
+    color: whitesmoke;
+option:nth-child(2n){
+    background-color: darkgrey;
+}
